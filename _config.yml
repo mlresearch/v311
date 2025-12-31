@@ -1,0 +1,88 @@
+---
+booktitle: Proceedings of the 20th Machine Learning in Computational Biology meeting
+conference_number: '20'
+volume: '311'
+shortname: MLCB
+start: &1 2025-09-10
+end: 2025-09-11
+published: 2025-12-31
+year: '2025'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: MLCB2025
+month: 0
+cycles: false
+bibtex_editor: Knowles, David A and Koo, Peter K
+editor:
+- given: David A
+  family: Knowles
+- given: Peter K
+  family: Koo
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 20th Machine Learning in Computational Biology meeting
+    Held in New York, NY, USA on 10-11 September 2025
+
+  Published as Volume 311 by the Proceedings of Machine Learning Research on 31 December 2025.
+
+  Volume Edited by:
+    David A Knowles
+    Peter K Koo
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 10--11 Sep
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v311"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v311
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v311
+email: ''
+conference:
+  name: Machine Learning in Computational Biology
+  url: https://mlcb.org/
+  location: New York, NY, USA
+  dates:
+  - *1
+  - 2025-09-11
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: mlcb2025_cleaned_clean.bib
+# Site settings
+# Original source:  mlcb2025_cleaned_clean.bib
