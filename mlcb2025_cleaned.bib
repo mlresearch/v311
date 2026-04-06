@@ -64,7 +64,7 @@
 
 @InProceedings{Abante25,
  abstract = {Huntington's disease (HD) exhibits substantial variability in age of onset (AO), only partially explained by the length of the CAG repeat in the HTT gene. While most studies seeking additional genetic modifiers (GeMs) have relied on linear models, we investigate the potential of non-linear machine learning (ML) approaches, such as tree-based models and graph neural networks (GNNs), to capture complex, context-dependent genetic interactions influencing AO. To address the challenges posed by high-dimensional genotyping data, we introduce a strategy based on gene-specific variational autoencoders for genotype compression. This framework reveals novel modifiers with effects dependent on CAG repeat length, underscoring the importance of accounting for feature interactions. Additionally, we integrate predicted gene expression levels from Borzoi--- a genomic language model---into a multimodal prediction architecture. This integration allows us to identify regulatory variants likely to affect AO through expression changes. To our knowledge, this is the first application of a gLM in multimodal genotype-to-phenotype prediction, offering a new paradigm for interpretable modeling of complex traits in HD and related polyglutamine disorders.},
- author = {Abante, Jordi and Fuses, Caterina},
+ author = {Fuses, Caterina and Zavou, Georgia and Ros, Berta and Canals, Josep M and Abante, Jordi},
  pages = {128-147},
  title = {Context-Dependent Genetic Modifiers of Huntington's Disease Revealed Through Multimodal Machine Learning}
 }
@@ -166,3 +166,10 @@
  pages = {326-335},
  title = {F-MoDA: Efficient Fourier-based motif discovery in attribution maps}
 }
+
+@InProceedings{Rocha25,
+ abstract = {The advent of single-cell technology has significantly improved our understanding of cellular states and subpopulations in various tissues under normal and diseased conditions by employing data-driven approaches such as clustering and trajectory inference. However, these methods consider cells as independent data points of population distributions. With spatial transcriptomics, we can represent cellular organization, along with dynamic cell-cell interactions that lead to changes in cell state. Still, key computational advances are necessary to enable the data-driven learning of such complex interactive cellular dynamics. While agent-based modeling (ABM) provides a powerful framework, traditional approaches rely on handcrafted rules derived from domain knowledge rather than data-driven approaches. To address this, we introduce Spatio Temporal Agent-Based Graph Evolution Dynamics (STAGED) integrating ABM with deep learning to model intercellular communication, and its effect on the intracellular gene regulatory network. Using graph ODE networks (GDEs) with shared weights per cell type, our approach represents genes as vertices and interactions as directed edges, dynamically learning their strengths through a designed attention mechanism. Trained to match continuous trajectories of simulated as well as inferred trajectories from spatial transcriptomics data, the model captures both intercellular and intracellular interactions, enabling a more adaptive and accurate representation of cellular dynamics.},
+ author = {Rocha, Joao F. and Xu, Ke and Sun, Xingzhi and Krishna, Ananya and Bhaskar, Dhananjay and Mongeon, Blanche and Craig, Morgan and Gerstein, Mark and Krishnaswamy, Smita},
+ pages = {336-346},
+ title = {STAGED: A Multi-Agent Neural Network for Learning Cellular Interaction Dynamics}
+} 
