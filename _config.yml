@@ -3,7 +3,7 @@ booktitle: Proceedings of the 20th Machine Learning in Computational Biology mee
 conference_number: '20'
 volume: '311'
 shortname: MLCB
-start: &1 2025-09-10
+start: 2025-09-10
 end: 2025-09-11
 published: 2025-12-31
 year: '2025'
@@ -69,7 +69,7 @@ conference:
   url: https://mlcb.org/
   location: New York, NY, USA
   dates:
-  - *1
+  - 2025-09-10
   - 2025-09-11
 analytics:
   google:
